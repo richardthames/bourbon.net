@@ -1,0 +1,20 @@
+{
+  "name": "bourbon.net",
+  "description": "Site for bourbon.net",
+  "author": "Richard Thames",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "npm run clean && npx @11ty/eleventy",
+    "clean": "rm -rf _site",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "html-minifier": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardthames/bourbon.net"
+  }
+}
